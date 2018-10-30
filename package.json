@@ -1,0 +1,35 @@
+{
+  "name": "function-parser",
+  "version": "0.0.1",
+  "description": "Safe function call parser",
+  "main": "src/function-parser.js",
+  "types": "src/function-parser.d.ts",
+  "scripts": {
+    "test": "mocha --recursive --reporter spec",
+    "watch-test": "mocha --recursive --watch --reporter spec",
+    "test-ci": "istanbul cover ./node_modules/mocha/bin/_mocha test/**/*.js --report lcovonly -- -R spec && cat ./coverage/lcov.info"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "chai": "^4.1.2",
+    "chai-spies": "^1.0.0",
+    "istanbul": "0.4.5"
+  },
+  "keywords": [
+    "parser",
+    "function",
+    "safe",
+    "eval",
+    "fast"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hisco/function-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hisco/function-parser/issues"
+  },
+  "homepage": "https://github.com/hisco",
+  "author": "Eyald <hisco@googlegroups.com‬>",
+  "license": "MIT"
+}
