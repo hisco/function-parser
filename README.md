@@ -1,5 +1,7 @@
 # Function call parser
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hisco/function-parser.svg)](https://greenkeeper.io/)
+
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Test Coverage][coveralls-image]][coveralls-url]
